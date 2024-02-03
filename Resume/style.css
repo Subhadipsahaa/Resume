@@ -1,0 +1,93 @@
+*{
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(35, 31, 31);
+    display: flex;
+    min-height: 90vh;
+
+}
+h1{
+    color:rgb(47, 38, 38);
+    text-align: center;
+}
+#form{
+    background-color:rgb(109, 108, 108);
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 25px;
+}
+#form .inputbox{
+    position: relative;
+    width: 100%;
+}
+#btn{
+    color: rgb(206, 212, 212);
+    background-color: rgb(60, 60, 64);
+    padding: 10px;
+    font-size:95%;
+    border-radius: 12px;
+    align-self: center;
+    cursor: pointer;
+}
+#button{
+    text-align: center;
+    margin: 25px auto;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+}
+@media screen and (max-width:700px){
+    #form{
+        width:65%;
+        padding: 25px;
+        color: #212020;
+    }
+}
+.inputbox input{
+    background: transparent;
+    border-radius:10px;
+    padding: 5px;
+    border:none;
+    outline: none;
+    border: 2px solid rgb(160, 155, 155);
+    color: #fff;
+
+
+}
+.inputbox input::placeholder{
+    color:#fff;
+}
+.inputbox  i{
+    position:absolute;
+    right: 30px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.socialm i{
+    padding: 3px;
+    background: transparent;
+    display: inline;
+    width: 75%;
+}
+.socialm #i {
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: larger;
+}
+.socialm {
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.slink{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
