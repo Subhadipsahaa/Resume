@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: rgb(52, 57, 57);
+    align-items: center;
+    justify-content: center; 
+}
+.screen{
+    /* text-align: center; */
+    /* background: red; */
+    /* height: 95vh;
+    width: 60vh; */
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+video{
+    height: 95vh;
+    width: 60vh;
+}
