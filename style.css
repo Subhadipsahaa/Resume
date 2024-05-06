@@ -114,6 +114,7 @@ h1{
     transform: translatey(-50%);
     font-size: 20px;
 }
+
 label{
     display: block;
     font-size:medium ;
@@ -155,3 +156,10 @@ label{
     color: rgb(103, 103, 109);
     transition-duration: 0.2s;
 }
+#passw:focus ~.lock{
+    opacity: 0;
+}
+/* 
+#uname:focus ~.uicon{
+    opacity: 0;
+} */

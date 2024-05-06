@@ -8,9 +8,10 @@
     <title>Sign In</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
-<body >
+<body>
 
     <div id="form">
         <img src="5087579.png" id="logo">
@@ -19,22 +20,25 @@
         <form method="POST" name="form" action="first.php">
             <div class="inputbox">
                 <label for="uname">Username:</label>
-                <input type="text" id="uname" name="uname" placeholder="Enter Your User Name" required autofocus>
-                    <i class='bx bxs-user'></i>
+                <input type="text" id="uname" name="uname" placeholder="Enter Your User Name" title="Enter User Id"  required autofocus>
+                <i class='bx bxs-user'></i>
                 
+
             </div>
             <br>
             <div class="inputbox">
                 <label for="passw">Password:</label>
                 <input type="password" id="passw" name="passw" placeholder="Enter Your password" required>
-                     <i class='bx bxs-lock-alt'></i>
-            </div>
+                <div class="lock">
+                <i class='bx bxs-lock-alt'></i>
+                </div>
+                </div>
             <div id="button">
                 <button id="btn" type="submit">Continue</button>
                 <button id="rst" type="reset">Clear</button>
             </div>
             <div>
-                <a class="rlink" href="register.html">Register Now</a>
+                <a class="rlink" href="register.php">Register Now</a>
             </div>
             <div class="socialm">
                 <p>You can reach me on..</p>
@@ -59,8 +63,8 @@
                 </a>
                 <a class="slink" href="https://github.com/Subhadipsahaa" target="_blank">
                     <a class="slink" href="https://wa.me/qr/P3XI7CYPIWSIC1" target="_blank">
-                    <i class='bx bxl-whatsapp' ></i>
-                </a>
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
                 </a>
             </div>
         </form>

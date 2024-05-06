@@ -143,3 +143,6 @@ option {
     color: black;
     background-color:rgb(71, 70, 70);
 }
+.error{
+    color: #fff;
+}
