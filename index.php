@@ -7,11 +7,11 @@
     <title>Welcome!</title>
     <link rel="icon" type="image" href="home-solid-24.png">
     <style>
-        .mes{
+        .mes {
             display: block;
             text-align: center;
             color: White;
-            background-color: rgba( 0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.2);
             padding: 1%;
         }
     </style>
@@ -19,9 +19,9 @@
 
 <body>
     <?php
-include 'navbar.php'
-?>
-<h1 class=mes>Thanks for reaching us</h1>
+    include 'navbar.php'
+    ?>
+    <h1 class=mes>Thanks for reaching us</h1>
 
 </body>
 
