@@ -34,7 +34,7 @@
                 $uname = $_POST['uname'];
                 $country = $_POST['cname'];
                 $phone = $_POST['pnum'];
-                $pass = $_POST['passw'];
+                $pass = password_hash($_POST['passw'], PASSWORD_DEFAULT);
                 $sql = " INSERT INTO `register` (`fanme`, `lname`, `uname`, `country`, `phone`, `password`) VALUES ('$fname', '$lname', '$uname', '$country', '$phone', '$pass')";
                 $ress = mysqli_query($conn, $sql);
                 if ($ress) {
