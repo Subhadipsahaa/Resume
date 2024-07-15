@@ -16,7 +16,7 @@
     <div id="form">
         <img src="5087579.png" id="logo">
         <h1>Register</h1>
-        <form method="POST" action="fast.php">
+        <form method="POST" action="#">
             <div class="inputbox">
                 <label for="fname">First Name: </label>
                 <input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required autofocus>

@@ -17,7 +17,7 @@
         <img src="5087579.png" id="logo">
         <h1>Log In</h1>
         <br>
-        <form method="POST" name="form" action="first.php">
+        <form method="POST" name="form" action="#">
             <div class="inputbox">
                 <label for="uname">Username:</label>
                 <input type="text" id="uname" name="uname" placeholder="Enter Your User Name" title="Enter User Id" required autofocus>
